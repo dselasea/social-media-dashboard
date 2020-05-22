@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Frontend Mentor | [Challenge Name Here]</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <!-- <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      } -->
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="heading">
+          <h1>Social Media Dashboard</h1>
+          <p>Total Followers: 23,004</p>
+        </div>
+        <div class="toogle">
+          <h4>Dark Mode</h4>
+          <input type="checkbox" class="checkbox" id="checkbox" />
+          <label for="checkbox" class="label">
+            <div class="ball"></div>
+          </label>
+        </div>
+      </header>
+      <main class="main">
+        <div class="main-card">
+          <div>
+            <a href="#" class="main-card-handle">
+              <img
+                src="/images/icon-facebook.svg"
+                alt="Facecook icon"
+                class="social"
+              />@nathanf</a
+            >
+          </div>
+          <div>
+            <h2>1987</h2>
+            <p>FOLLOWERS</p>
+          </div>
+          <div>
+            <a href="#" class="green"
+              ><img src="/images/icon-up.svg" alt="up icon" class="arrow" />12
+              Today</a
+            >
+          </div>
+        </div>
+        <div class="main-card">
+          <div>
+            <a href="#" class="main-card-handle">
+              <img
+                src="/images/icon-twitter.svg"
+                alt="Twitter icon"
+                class="social"
+              />@nathanf</a
+            >
+          </div>
+          <div>
+            <h2>1044</h2>
+            <p>FOLLOWERS</p>
+          </div>
+          <div>
+            <a href="#" class="green"
+              ><img src="/images/icon-up.svg" alt="up icon" class="arrow" />99
+              Today</a
+            >
+          </div>
+        </div>
+
+        <div class="main-card">
+          <div>
+            <a href="#" class="main-card-handle">
+              <img
+                src="/images/icon-instagram.svg"
+                alt="Instagram icon"
+                class="social"
+              />@realnathanf</a
+            >
+          </div>
+          <div>
+            <h2>11k</h2>
+            <p>FOLLOWERS</p>
+          </div>
+          <div>
+            <a href="#" class="green"
+              ><img src="/images/icon-up.svg" alt="up icon" class="arrow" />1099
+              Today</a
+            >
+          </div>
+        </div>
+
+        <div class="main-card">
+          <div>
+            <a href="#" class="main-card-handle">
+              <img
+                src="/images/icon-youtube.svg"
+                alt="Youtube icon"
+                class="social"
+              />Nathan F.</a
+            >
+          </div>
+          <div>
+            <h2>8239</h2>
+            <p>SUBSCRIBERS</p>
+          </div>
+          <div>
+            <a href="#" class="red"
+              ><img
+                src="/images/icon-down.svg"
+                alt="up icon"
+                class="arrow"
+              />144 Today</a
+            >
+          </div>
+        </div>
+      </main>
+
+      <section class="overview">
+        <h2>Overview - Today</h2>
+        <div class="overview-content">
+          <div class="overview-card">
+            <div>
+              <p>Page Views</p>
+              <img
+                src="/images/icon-facebook.svg"
+                alt="Facecook icon"
+                class="social"
+              />
+            </div>
+            <div>
+              <h4>87</h4>
+              <a href="#" class="green"
+                ><img
+                  src="/images/icon-up.svg"
+                  alt="Icon up"
+                  class="arrow"
+                />3%</a
+              >
+            </div>
+          </div>
+
+          <div class="overview-card">
+            <div>
+              <p>Likes</p>
+              <img
+                src="/images/icon-facebook.svg"
+                alt="Facecook icon"
+                class="social"
+              />
+            </div>
+            <div>
+              <h4>52</h4>
+              <a href="#" class="red"
+                ><img
+                  src="/images/icon-down.svg"
+                  alt="Icon up"
+                  class="arrow"
+                />2%</a
+              >
+            </div>
+          </div>
+
+          <div class="overview-card">
+            <div>
+              <p>Page Views</p>
+              <img
+                src="/images/icon-instagram.svg"
+                alt="Instagram icon"
+                class="social"
+              />
+            </div>
+            <div>
+              <h4>5462</h4>
+              <a href="#" class="green"
+                ><img
+                  src="/images/icon-up.svg"
+                  alt="Icon up"
+                  class="arrow"
+                />2257%</a
+              >
+            </div>
+          </div>
+
+          <div class="overview-card">
+            <div>
+              <p>Profile Views</p>
+              <img
+                src="/images/icon-instagram.svg"
+                alt="Facecook icon"
+                class="social"
+              />
+            </div>
+            <div>
+              <h4>52k</h4>
+              <a href="#" class="green"
+                ><img
+                  src="/images/icon-up.svg"
+                  alt="Icon up"
+                  class="arrow"
+                />1375%</a
+              >
+            </div>
+          </div>
+
+          <div class="overview-card">
+            <div>
+              <p>Retweets</p>
+              <img
+                src="/images/icon-twitter.svg"
+                alt="Facecook icon"
+                class="social"
+              />
+            </div>
+            <div>
+              <h4>117</h4>
+              <a href="#" class="green"
+                ><img
+                  src="/images/icon-up.svg"
+                  alt="Icon up"
+                  class="arrow"
+                />303%</a
+              >
+            </div>
+          </div>
+
+          <div class="overview-card">
+            <div>
+              <p>Likes</p>
+              <img
+                src="/images/icon-twitter.svg"
+                alt="Facecook icon"
+                class="social"
+              />
+            </div>
+            <div>
+              <h4>507</h4>
+              <a href="#" class="green"
+                ><img
+                  src="/images/icon-up.svg"
+                  alt="Icon up"
+                  class="arrow"
+                />553%</a
+              >
+            </div>
+          </div>
+
+          <div class="overview-card">
+            <div>
+              <p>Likes</p>
+              <img
+                src="/images/icon-youtube.svg"
+                alt="Facecook icon"
+                class="social"
+              />
+            </div>
+            <div>
+              <h4>107</h4>
+              <a href="#" class="red"
+                ><img
+                  src="/images/icon-down.svg"
+                  alt="Icon down"
+                  class="arrow"
+                />19%</a
+              >
+            </div>
+          </div>
+
+          <div class="overview-card">
+            <div>
+              <p>Total Views</p>
+              <img
+                src="/images/icon-facebook.svg"
+                alt="Facecook icon"
+                class="social"
+              />
+            </div>
+            <div>
+              <h4>1407</h4>
+              <a href="#" class="red"
+                ><img
+                  src="/images/icon-down.svg"
+                  alt="Icon down"
+                  class="arrow"
+                />12%</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div> -->
+    <script>
+      const checkbox = document.body;
+      checkbox.addEventListener('change', () => {
+        checkbox.classList.toggle('light');
+      });
+    </script>
+  </body>
+</html>
